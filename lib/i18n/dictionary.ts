@@ -237,6 +237,22 @@ export const dictionaries: Record<Locale, Translations> = {
           images: ["/projects/social-pilot-x.png"],
         },
         {
+          title:
+            "Space Result – landing page de aceleração para confecções de lingerie",
+          summary:
+            "Landing page focada em conversão para um programa de aceleração de confecções de lingerie, com mentoria e serviços incluídos, voltado a negócios em busca de crescimento estruturado.",
+          role: "Frontend & UI design",
+          tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+          tags: ["Landing page", "Site de oferta"],
+          liveUrl: "https://space-result-lp.vercel.app/",
+          githubUrl: null,
+          imageAlt:
+            "Screenshot da landing page em vermelho e preto da oferta de aceleração de confecções de lingerie da Space Result.",
+          longDescription:
+            "Projetei e desenvolvi uma landing page para divulgar um programa de aceleração específico da Space Result, voltado para confecções de lingerie que querem crescer com mais previsibilidade. A página apresenta com clareza para quem é e para quem não é a oferta, explica o passo a passo da mentoria, mostra os entregáveis (diagnóstico, plano de ação e acompanhamento) e destaca a urgência de uma condição por tempo limitado. O foco é gerar inscrições qualificadas, filtrando o público certo e facilitando o agendamento de conversas com o time comercial.",
+          images: ["/projects/space-result.png"],
+        },
+        {
           title: "Plataforma de dados para risco, cobrança e fraude",
           summary:
             "Pipelines de dados consolidando informações de risco de crédito, cobrança e fraude para um banco de varejo, apoiando analytics e migração para a nuvem.",
@@ -275,15 +291,31 @@ export const dictionaries: Record<Locale, Translations> = {
       items: [
         {
           quote:
-            "O Leonardo conecta muito bem o lado técnico com o de negócio. Entrega soluções sólidas e sabe explicar cada decisão.",
-          name: "Gestor de produto",
-          role: "SaaS B2B",
+            "Melhor programador que já conheci. Consegui entregar uma demanda super complexa com API de WhatsApp, inteligência artificial e gestão de clientes. Recomendo muito o trabalho do Leonardo para todos que precisam desenvolver aplicações, sites e sistemas.",
+          name: "Hudson Souza",
+          role: "Fundador · Space Result",
+          avatarUrl: "/testimonials/hudson.png",
         },
         {
           quote:
-            "Foi peça chave na evolução dos nossos pipelines de dados. Confiamos nos números porque confiamos no trabalho dele.",
-          name: "Líder de dados",
-          role: "Serviços financeiros",
+            "Leonardo demonstrou grande competência técnica atuando como engenheiro de dados em um grande projeto de risco e crédito no varejo financeiro, sempre entregando resultados com alto nível de organização. Apresentou excelente capacidade de comunicação, articulando ideias de forma clara e objetiva. É um profissional comprometido, confiável e com grande potencial para assumir desafios ainda maiores.",
+          name: "Anderson David de Moura Junior",
+          role: "Engenheiro de Dados",
+          avatarUrl: "/testimonials/anderson.jpg",
+        },
+        {
+          quote:
+            "Tive um grande prazer em trabalhar com o Leonardo, que sempre foi uma soma para a squad. Entende as demandas com facilidade, respeita a priorização do time e mantém uma colaboração ímpar com todos os colegas. Extremamente profissional e ótimo de ter como colega.",
+          name: "Osvaldo Caio Oliveira dos Santos",
+          role: "Coordenador de Pesquisa e Desenvolvimento",
+          avatarUrl: "/testimonials/caio.jpg",
+        },
+        {
+          quote:
+            "Leonardo demonstrou grande maturidade e competência atuando como engenheiro de dados na 2RP em um grande projeto para o varejo financeiro, entregando tudo sempre com a maior qualidade possível. Comunicação excelente, proativo e sempre disposto a melhorar a performance. Um profissional totalmente capacitado, comprometido com a equipe e com o projeto.",
+          name: "Rafael Moraes dos Santos",
+          role: "Engenheiro de Dados",
+          avatarUrl: "/testimonials/rafael.jpg",
         },
       ],
     },
@@ -606,6 +638,21 @@ export const dictionaries: Record<Locale, Translations> = {
           images: ["/projects/social-pilot-x.png"],
         },
         {
+          title: "Space Result – limited-time lingerie acceleration landing page",
+          summary:
+            "Conversion-focused landing page for an acceleration program for lingerie manufacturers, combining mentoring and services to help businesses grow in a structured way.",
+          role: "Frontend & UI design",
+          tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+          tags: ["Landing page", "Marketing site"],
+          liveUrl: "https://space-result-lp.vercel.app/",
+          githubUrl: null, // preencha se o repo for público
+          imageAlt:
+            "Screenshot of a red and black landing page for Space Result’s lingerie acceleration program.",
+          longDescription:
+            "I designed and built a landing page to promote a focused acceleration program from Space Result, aimed at lingerie manufacturers that want more predictable growth. The page clearly explains who the offer is and isn’t for, walks through the step-by-step mentoring process, highlights the main deliverables (diagnostics, action plan and ongoing support) and reinforces the urgency of a limited-time condition. The goal is to generate qualified applications, filter the right audience and make it easy for leads to book a call with the sales team.",
+          images: ["/projects/space-result.png"],
+        },
+        {
           title: "Financial risk, collections and fraud data platform",
           summary:
             "Data pipelines consolidating credit risk, collections and fraud data for a retail credit bank, powering analytics and migration to the cloud.",
@@ -644,15 +691,31 @@ export const dictionaries: Record<Locale, Translations> = {
       items: [
         {
           quote:
-            "Leonardo connects technical depth with business understanding. He delivers solid solutions and explains every decision clearly.",
-          name: "Product Manager",
-          role: "B2B SaaS",
+            "The best developer I’ve ever worked with. He helped me deliver a very complex project involving the WhatsApp API, artificial intelligence and customer management. I strongly recommend Leonardo’s work to anyone who needs to build applications, websites or systems.",
+          name: "Hudson Souza",
+          role: "Founder · Space Result",
+          avatarUrl: "/testimonials/hudson.png",
         },
         {
           quote:
-            "He was key to improving our data pipelines. We trust our numbers because we trust his work.",
-          name: "Data Lead",
-          role: "Financial services",
+            "Leonardo showed great technical competence working as a data engineer on a large risk and credit project in retail financial services, consistently delivering well-organized results. He demonstrated excellent communication skills, explaining ideas clearly and objectively. He is a committed and reliable professional with strong potential to take on even bigger challenges.",
+          name: "Anderson David de Moura Junior",
+          role: "Data Engineer",
+          avatarUrl: "/testimonials/anderson.jpg",
+        },
+        {
+          quote:
+            "I had the great pleasure of working with Leonardo, who was always a strong addition to the squad. He understands requirements quickly, respects the team’s priorities and collaborates exceptionally well with everyone. He is extremely professional and a great colleague to have on the team.",
+          name: "Osvaldo Caio Oliveira dos Santos",
+          role: "Research and Development Coordinator",
+          avatarUrl: "/testimonials/caio.jpg",
+        },
+        {
+          quote:
+            "Leonardo showed great maturity and competence working as a data engineer at 2RP on a large project for the retail financial sector, always delivering with the highest quality. His communication is excellent, he is proactive and constantly looking to improve performance. A highly skilled professional, committed both to the team and to the project.",
+          name: "Rafael Moraes dos Santos",
+          role: "Data Engineer",
+          avatarUrl: "/testimonials/rafael.jpg",
         },
       ],
     },

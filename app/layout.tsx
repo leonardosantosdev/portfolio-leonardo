@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Leonardo Santos | Engenheiro de Software · Dados & Web",
   description:
     "Portfólio de Leonardo Santos, engenheiro de software com foco em engenharia de dados e desenvolvimento full-stack. Construo pipelines de dados escaláveis e aplicações web voltadas para produto.",
+  icons: {
+    icon: "/logo.png",
+  },
   metadataBase: new URL("https://example.com"),
   openGraph: {
     title: "Leonardo Santos | Engenheiro de Software · Dados & Web",
