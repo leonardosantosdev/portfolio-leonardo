@@ -51,8 +51,8 @@ export function HeroSection({ content }: HeroSectionProps) {
         <div className="relative mx-auto h-56 w-56 max-w-full sm:h-64 sm:w-64">
           <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-tr from-primary/10 via-primary/30 to-primary/10 blur-3xl" />
           <div className="relative h-full w-full rounded-[2rem] border border-border bg-background/80 p-3 shadow-soft">
-            <div className="flex h-full flex-col items-center justify-center rounded-[1.5rem] bg-gradient-to-tr from-slate-900 via-slate-800 to-slate-900 text-center text-xs text-slate-100">
-              <div className="relative mb-4 h-16 w-16 overflow-hidden rounded-2xl border border-white/10">
+            <div className="flex h-full flex-col items-center justify-center rounded-[1.5rem] bg-gradient-to-tr from-background via-muted to-background text-center text-xs text-foreground transition-colors dark:from-secondary dark:via-secondary/90 dark:to-secondary">
+              <div className="relative mb-4 h-16 w-16 overflow-hidden rounded-2xl border border-border/60">
                 {/* Replace /avatar.png with your own file in /public */}
                 <Image
                   src="/avatar.jpg"
@@ -62,11 +62,11 @@ export function HeroSection({ content }: HeroSectionProps) {
                   className="object-cover"
                 />
               </div>
-              <p className="text-xs uppercase tracking-[0.18em] text-slate-300">
-                {content.eyebrow}
+              <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground whitespace-pre-line">
+                {content.eyebrow.replace(/\s*\u00B7\s*/g, "\n")}
               </p>
               <p className="mt-2 text-sm font-semibold">{content.name}</p>
-              <p className="mt-1 text-[0.7rem] text-slate-300">{content.role}</p>
+              <p className="mt-1 text-[0.7rem] text-muted-foreground">{content.role}</p>
             </div>
           </div>
         </div>
